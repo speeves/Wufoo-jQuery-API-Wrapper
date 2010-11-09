@@ -1,0 +1,62 @@
+* { margin: 0; padding: 0; }
+body { text-align: left; background: url(../images/stripe2.png); font: 14px/1.4 "Lucida Grande", Helvetica, Arial, Sans-Serif; }
+
+#page-wrap { width: 760px; padding: 20px; -webkit-box-shadow: 0 0 40px #666; -moz-box-shadow: 0 0 40px #666; background: white; margin: 40px auto; }
+
+#which-form { text-align: center; margin: 20px auto; }
+
+#display { border: 1px solid white; border-collapse: collapse; display: none; width: 100%; margin: 20px 0 20px -20px; width: 800px; }
+#display td { padding: 5px 20px; border: 1px solid white; }
+#display td:first-child { width: 50%; } 
+#display tr { background: #b9cefe; }
+#display tr:nth-of-type(2n) { background: #d6e3ff; }
+
+.buttons { display: none; }
+.prev-button { visibility: hidden; }
+
+h1, h2, h3 { margin: 0 0 20px 0; }
+p { margin: 0 0 10px 0; }
+ol { margin: 0 0 20px 20px; }
+ol ol { margin-top: 10px; }
+li { margin: 0 0 5px 0; }
+
+/* ----- BUTTONS ----- */
+
+a.button {
+	font-family:"Lucida Grande", Tahoma, Arial, sans-serif;
+	float:left;
+	margin:0 .7em 0 0;
+	text-decoration:none;
+	background:#EAEAEA url(/images/white-grad.png) repeat-x left top;
+	border:1px solid #dedede;
+	border-right:1px solid #bbb;
+	border-bottom:1px solid #bfbfbf;
+	padding:5px 10px 6px 10px;
+	display:block;
+	cursor:pointer;
+	font-size:100%;
+	line-height:130%;
+	color:#464646;
+	-webkit-box-shadow:rgba(0,0,0,.15) 0px 1px 3px;
+	-moz-box-shadow:rgba(0,0,0,.15) 0px 1px 3px;
+	box-shadow:rgba(0,0,0,.15) 0px 1px 3px;
+	-webkit-border-radius:11px;
+	-moz-border-radius:11px;
+	border-radius:11px;
+}
+a.button {
+	float:none;
+	display:inline;
+	display:inline-block;
+}
+a.button:hover {
+	border:1px solid #999;
+	color:#000;
+}
+a.button:active{
+	border-color:#ccc;
+	background: #FFF url(/images/white-grad-active.png) repeat-x left top;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}

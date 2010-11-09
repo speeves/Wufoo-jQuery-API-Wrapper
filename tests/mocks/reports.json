@@ -1,0 +1,31 @@
+{
+    "Reports":
+    [
+        {
+            "Name":"Colors",
+            "IsPublic":"0",
+            "Url":"colors",
+            "Description":null,
+            "DateCreated":"0000-00-00 00:00:00",
+            "DateUpdated":"0000-00-00 00:00:00",
+            "Hash":"m5p7k0",
+            "LinkFields":"https:\/\/fishbowl.wufoo.com\/api\/v3\/reports\/m5p7k0\/fields.json?system=false",
+            "LinkEntries":"https:\/\/fishbowl.wufoo.com\/api\/v3\/reports\/m5p7k0\/entries.json?system=false",
+            "LinkEntriesCount":"https:\/\/fishbowl.wufoo.com\/api\/v3\/reports\/m5p7k0\/entries\/count.json?system=false",
+            "LinkWidgets":"https:\/\/fishbowl.wufoo.com\/api\/v3\/reports\/m5p7k0\/widgets.json?system=false"
+        },
+        {
+            "Name":"Names",
+            "IsPublic":"1",
+            "Url":"names",
+            "Description":null,
+            "DateCreated":"0000-00-00 00:00:00",
+            "DateUpdated":"0000-00-00 00:00:00",
+            "Hash":"z5p8q2",
+            "LinkFields":"https:\/\/fishbowl.wufoo.com\/api\/v3\/reports\/z5p8q2\/fields.json?system=false",
+            "LinkEntries":"https:\/\/fishbowl.wufoo.com\/api\/v3\/reports\/z5p8q2\/entries.json?system=false",
+            "LinkEntriesCount":"https:\/\/fishbowl.wufoo.com\/api\/v3\/reports\/z5p8q2\/entries\/count.json?system=false",
+            "LinkWidgets":"https:\/\/fishbowl.wufoo.com\/api\/v3\/reports\/z5p8q2\/widgets.json?system=false"
+        }
+    ]
+}

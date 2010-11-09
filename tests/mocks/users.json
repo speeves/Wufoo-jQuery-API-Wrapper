@@ -1,0 +1,37 @@
+{
+    "Users":
+    [
+        {
+            "User":"fishbowl",
+            "Email":"fishbowl@wufoo.com",
+            "TimeZone":null,
+            "Company":null,
+            "IsAccountOwner":"1",
+            "CreateForms":"0",
+            "CreateReports":"0",
+            "CreateThemes":"0",
+            "AdminAccess":"0",
+            "Image":"boy_1",
+            "ApiKey":"AOI6-LFKL-VM1Q-IEX9",
+            "LinkForms":"https:\/\/fishbowl.wufoo.com\/api\/v3\/forms.json?system=false",
+            "LinkReports":"https:\/\/fishbowl.wufoo.com\/api\/v3\/reports.json?system=false",
+            "Hash":"b-m2n537"
+        },
+        {
+            "User":"User With No Permissions",
+            "Email":"fishy@wufoo.com",
+            "TimeZone":"-12.00",
+            "Company":null,
+            "IsAccountOwner":null,
+            "CreateForms":"0",
+            "CreateReports":"0",
+            "CreateThemes":"0",
+            "AdminAccess":null,
+            "Image":"animal_10",
+            "ApiKey":"EL2P-RPCO-HD1W-SX96",
+            "LinkForms":"https:\/\/fishbowl.wufoo.com\/api\/v3\/forms.json?system=false",
+            "LinkReports":"https:\/\/fishbowl.wufoo.com\/api\/v3\/reports.json?system=false",
+            "Hash":"k-n6q13883"
+        }
+    ]
+}
