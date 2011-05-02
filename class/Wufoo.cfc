@@ -14,8 +14,8 @@
                       @param     subdomain                 string             subdomain for our wufoo acct (default: stolaf)
                       @param     apiKey                    string             api key for wufoo api (default: the key)
 		      ">
-      <cfset variables.subdomain = 'stolaf' />
-      <cfset variables.apiKey = 'MH13-8NQA-H5D7-KKZ7' />
+      <cfset variables.subdomain = 'SUBDOMAIN' />
+      <cfset variables.apiKey = 'YOUR_APIKEY' />
 
      <cfreturn this />
     </cffunction>
