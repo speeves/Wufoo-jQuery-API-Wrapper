@@ -1,0 +1,22 @@
+Instructions
+------------
+
+1. copy Wufoo.cfc and WufooGetter.cfc to your desired subweb 
+2. vi Wufoo.cfc and change variables.subdomain and variables.apiKey to your API Key and subdomain.
+	- variables.subdomain = stolaf
+    - variables.apiKey = 16-character alpha-numeric string (api key is tied to the user, and can be reset on the API information page).
+      (a. login to wufoo admin
+       b. click on the form tab
+	   c. choose any form, and click code
+	   d. click on API information
+	   e. copy the 16-character alpha-numeric string 
+      )
+3. build the calling page in the same directory as Wufoo.cfc, (refer to example.com for either javascript or coldfusion usage).
+	- you can use either the form name, or hashed form name, (hashed form name is recommended, as it will remain 
+	  the same, even if the form is renamed:
+      (a. login to wufoo admin
+       b. click on the form tab
+	   c. choose any form, and click code
+	   d. click on API information
+	   e. scroll to bottom of field list and copy the 'HASH' value. (ie Hash   m7p5s7)
+      )
